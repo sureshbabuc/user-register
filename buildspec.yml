@@ -10,5 +10,5 @@ phases:
       - echo Build completed successfully
 artifacts:
   files:
-    -target/user-register.jar
+    - target/user-register.jar
   discard-paths: yes

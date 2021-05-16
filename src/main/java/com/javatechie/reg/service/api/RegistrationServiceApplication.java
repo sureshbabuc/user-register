@@ -21,7 +21,7 @@ public class RegistrationServiceApplication {
     @GetMapping("/test")
     public String demo() {
         
-        return "Hi  your checking process successfully completed";
+        return "Hi  this is pipeline";
     }
     @PostMapping("/register")
     public String register(@RequestBody Users user) {
